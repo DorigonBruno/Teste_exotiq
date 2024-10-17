@@ -1,4 +1,4 @@
-import BookOpen from "../../assets/book-open.svg";
+import BookOpen from "../assets/book-open.svg";
 
 const Filtros = () => {
   return (
