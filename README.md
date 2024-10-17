@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+<!-- <p>
+  <img src="./github/unknown_2024.08.23-05.12-Trim-ezgif.com-video-to-gif-converter.gif">
+</p> -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Teste Exotiq 📝
 
-Currently, two official plugins are available:
+Realizei este teste para comprovar minhas habilidades para um freeLance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O teste consiste em criar uma landing page, consumindo a API de notícias <a href="https://newsapi.org/">News API </a>
 
-## Expanding the ESLint configuration
+O teste consistia em consumir a API, utilizando React, Tailwind CSS, e TypeScript.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Como usar
 
-- Configure the top-level `parserOptions` property like this:
+Primeiro devemos baixar o repo público deste github.
+Em sua máquina instale as dependecias com `npm install` e depois no mesmo terminal execute a aplicação do vite com `npm run dev`.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![alt text](image.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![alt text](image-1.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para consumir API como a própria documentação descreve <a href="https://newsapi.org/docs/guides/how-to-get-the-full-content-for-a-news-article" target='_blank'>News API DOC</a>, Tive que criar um servidor com NodeJS para fazer o método de raspagem da página.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Então em outro terminal chegue na pasta raiz e execute o comando `node server.js`. Que irá executar a requisição de raspagem pelo arquivo server.js
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+# Tecnologias - 👨‍💻
+
+- React
+- React Router Dom
+- Vite
+- API (Json)
+- Nodejs
+- Git
