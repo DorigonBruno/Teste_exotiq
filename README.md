@@ -1,6 +1,6 @@
-<!-- <p>
-  <img src="./github/unknown_2024.08.23-05.12-Trim-ezgif.com-video-to-gif-converter.gif">
-</p> -->
+<p>
+  <img src="./github/unknown_2024.10.17-16.43-ezgif.com-video-to-gif-converter.gif">
+</p>
 
 # Teste Exotiq 📝
 
