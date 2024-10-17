@@ -14,7 +14,7 @@ interface Article {
   content: string;
 }
 
-const API_KEY = "950d895b27fa4229806c25d751bb634a";
+const API_KEY = "e56b0fe85d7440ebb43f59c50319b5b0";
 const API_URL = `https://newsapi.org/v2/everything?sources=info-money&apiKey=${API_KEY}`;
 
 const PostList: React.FC = () => {

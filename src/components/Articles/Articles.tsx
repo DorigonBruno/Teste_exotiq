@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import Filtros from "../../util/Filtros";
 import TimeAgo from "../../util/TimeAgo";
-import Spinner from "../../util/Spinner"; // Importa o componente Spinner
+import Spinner from "../../util/Spinner";
 
 const Articles = () => {
   const { title, author, urlToImage, description, url, publishedAt } =
@@ -19,7 +19,7 @@ const Articles = () => {
 
   const [articleContent, setArticleContent] = useState<string>("");
   const [newsType, setNewsType] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(true); // Estado de carregamento
+  const [loading, setLoading] = useState<boolean>(true);
 
   const location = useLocation();
 
@@ -30,7 +30,7 @@ const Articles = () => {
 
       const fetchArticle = async () => {
         try {
-          setLoading(true); // Inicia o carregamento
+          setLoading(true);
           const response = await fetch(
             `http://localhost:3000/scrape?url=${encodeURIComponent(url)}`
           );
@@ -44,7 +44,7 @@ const Articles = () => {
         } catch (error) {
           console.error("Erro ao buscar artigo:", error);
         } finally {
-          setLoading(false); // Finaliza o carregamento
+          setLoading(false);
         }
       };
 

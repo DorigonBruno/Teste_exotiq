@@ -17,7 +17,7 @@ const Banner = () => {
   const [noticy, setNoticy] = React.useState<Noticy | null>(null);
   const [loading, setLoading] = React.useState(true);
 
-  const apiKey = "950d895b27fa4229806c25d751bb634a";
+  const apiKey = "e56b0fe85d7440ebb43f59c50319b5b0";
 
   React.useEffect(() => {
     async function fetchData(url: RequestInfo | URL) {
