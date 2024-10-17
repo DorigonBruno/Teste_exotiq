@@ -31,6 +31,7 @@ Então em outro terminal chegue na pasta raiz e execute o comando `node server.j
 
 - React
 - React Router Dom
+- Tailwind Css
 - Vite
 - API (Json)
 - Nodejs
